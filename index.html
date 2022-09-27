@@ -7,11 +7,10 @@
   <style>
     
     footer {
-        background-color: rgb(25, 14, 78);
+        background-color: rgb(2, 2, 4);
         color: white;
         padding: 15px;
     }
-    <style>
             .navbar-nav{
                 margin-left: auto;
             }
@@ -35,44 +34,45 @@
              
             }
 
-            
-            
-        
+            .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 
 
 </style>
 </head>
 <body style="background-image:linear-gradient(to right,#88c6cd, #6a7086 )">
-  <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-image: linear-gradient(to right,#88c6cd, #6a7086);">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-            data-bs-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-           <ul class="navbar-nav ml-auto">
-               <li class="nav-item">
-                   <a class="nav-link" href="#About">About</a>
-               </li>
-               <li class="nav-item ">
-                   <a class="nav-link" href="#Experience">Experience</a>
-               </li>
-               <li class="nav-item ">
-                    <a class="nav-link" href="#Education">Education</a>
-                </li>
-               <li class="nav-item">
-                   <a class="nav-link" href="#Skills">Skills</a>
-               </li>
-               <li class="nav-item">
-                <a class="nav-link" href="#Contact">Contact</a>
-            </li>
-                 </ul>
-          </div>
-    </div>
-  </nav>
+
+    <div class="topnav">
+        <a href="#About">About</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Education">Education</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Interests">Interests</a>
+        <a href="#Contact">Contact</a>
+      </div>
+      
+ 
   <main role="main">
     <div class="container-fluid" style="background-image:linear-gradient(to right,#88c6cd, #6a7086)" ); color: #303C6C;">
     <div class="container vh-100 " id="About">
@@ -88,8 +88,8 @@
                 <B style="font-size:20px; color:#182557">I am currently pursuing Master in Computer Science at Clemson University.<br> 
                     Previously worked as a Programmer Analyst for 1 year and six months at Cognizant Technology Solutions.<br>
                     I love listening to music.<br><br>
-
-                    <div style="font-size:18px; color:#303C6C">
+<hr>
+                    <div style="font-size:20px; color:#182557" id="Interests">
                         <B>Interests:<br>
                         Data Analysis<br>
                         Machine Learning<br>
@@ -106,10 +106,10 @@
             </div>
         </div>
     </div>
-
+<hr>
         <div class="w3-container" id="Experience">
-            <h2 style="padding-top: 10px; color:rgb(13, 75, 104)">Experience</h2>
-            <hr>
+            <h2 style="padding-top: 10px; color:#182557">Experience</h2>
+            
             <div class="row" style="padding-top: 10px; color:#182557">
                 <div class="column">
                     <div class="w3-card-4">
@@ -171,10 +171,10 @@
             </div>
 
 
-  
+  <hr>
             <div class="w3-container" id="Education">
                 <h2 style="padding-top: 10px;">Education</h2>
-                <hr>
+                
                 <div class="row" style="padding-top: 10px;">
                     <div class="column">
                         <div class="w3-card-4">
@@ -220,10 +220,10 @@
                     </div>  
 
                     </div>
-
+<hr>
             <div class="w3-container" id="Skills">
                 <h2 style="padding-top: 10px;">Skills</h2>
-                <hr>
+               
                 <ul>
                     <li>C++</li>
                     <li>Java</li>
@@ -232,9 +232,10 @@
                     <li>Informatica</li>
                 </ul>
             </div>
+            <hr>
             <div class="w3-container" id="Contact">
                 <h2 style="padding-top: 10px;">Contact</h2>
-                <hr>
+                
                 <a href="https://www.linkedin.com/in/jahnavi-n-990b44171/">Linkedin</a>
             </div>
              
@@ -245,8 +246,8 @@
         
                  
 
-            <footer class="container-fluid text-center">
-                <p><a href="https://github.com/npjahnavi/Personalwebsite/blob/main/LICENSE">Copyright (c) 2022 Jahnavi Nellepalli Parthasarathi</a></p>
+            <footer>
+                <p><a href="https://github.com/npjahnavi/npjahnavi.github.io/blob/main/Licence.md">Copyright (c) 2022 Jahnavi Nellepalli Parthasarathi</a></p>
             </footer>
   </body>
 </html>
